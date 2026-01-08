@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+
+/* Navigation bar */
+
+.nav-container{
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 60px;
+    width: 139px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.navBtn button{
+    border: none;
+    background-color: #30B868;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* Banner */
+
+#banner{
+    background-image: url(/assets/hero-bg.png);
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-container{
+    max-width: 520px;
+    max-height: 400px;
+    padding: 70px 110px 134px 110px;
+    align-items: stretch;
+}
+
+.bannerInfo h5{
+    border-radius: 18px;
+    margin-left: 170px;
+    margin-bottom: 10px;
+    padding: 4px;
+    background-color: white;
+    color: rgb(121, 201, 0);
+    width: 150px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.bannerInfo h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.bannerInfo p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+}
+.bannerBtn{
+    /* padding-left: 120px; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.banner-left-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background-color: #30B868;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.banner-right-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* card section */
+#card-section{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.card-info{
+    margin-left: 290px;
+}
+.card-info h2{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.card-info p{
+    font-size: 12px;
+    color: rgb(155, 153, 153);
+    padding-left: 5px;
+    padding-bottom: 30px;
+}
+.cards{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+.card-item img{
+    background-color: red;
+    border-radius: 50%;
+    padding: 6px;
+}
+.card-item{
+    padding-top: 40px;
+    padding: 30px;
+    box-shadow: 0px -4px 70px 4px rgba(212, 210, 210, 0.497);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.card-item h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-item p{
+    padding-top: 10px;
+    font-size: 12px;
+    color: rgb(156, 154, 154);
+}
+
+/* solution section */
+#solution{
+    padding: 120px;
+}
+.solution-box{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.solutionImage img{
+    height: 450px;
+    width: 450px;
+}
+.solutionInfo h5{
+    color: #30B868;
+    padding-bottom: 15px;
+}
+.solutionInfo h2{
+    max-width: 350px;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.solutionInfo p{
+    max-width: 350px;
+    font-size: 13px;
+    padding-bottom: 15px;
+    color: rgb(156, 154, 154);
+}
+.solutionInfo ul{
+    max-width: 350px;
+    font-size: 13px;
+    list-style: none;
+}
+.solutionInfo ul li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ready section */
+#readySection{
+    padding: 0px 120px 120px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ready-container{
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+}
+.ready-container h3{
+    font-size: 35px;
+}
+.ready-container p{
+    line-height: 20px;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: rgb(156, 154, 154);
+}
+.readyBtn{
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0px 4px 70px 4px rgba(212, 210, 210, 0.497); */
+}
+.readyBtn-low{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background-color: #30B868;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0px 6px 12px -4px rgba(0, 0, 0, 0.4);
+}
+.dot{
+    font-size: 30px;
+    font-weight: bold;
+    margin:0 4px;
+}
