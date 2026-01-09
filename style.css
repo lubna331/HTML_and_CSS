@@ -49,7 +49,7 @@ body .wapper{
 /* Banner */
 
 #banner{
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(./assets/hero-bg.png);
     height: 510px;
     display: flex;
     align-items: center;
